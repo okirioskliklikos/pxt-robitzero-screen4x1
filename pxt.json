@@ -1,6 +1,6 @@
 {
     "name": "pxt-robitzero-screen4x1",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "description": "",
     "dependencies": {
         "core": "*",
@@ -13,7 +13,9 @@
         "main.blocks",
         "main.ts",
         "custom.ts",
-        "library.ts"
+        "library.ts",
+        "_locales/en/pxt-robitzero-screen4x1-strings.json",
+        "_locales/el/pxt-robitzero-screen4x1-strings.json"
     ],
     "testFiles": [
         "test.ts"
