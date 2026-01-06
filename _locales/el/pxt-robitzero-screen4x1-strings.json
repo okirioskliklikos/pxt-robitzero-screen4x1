@@ -4,7 +4,7 @@
   "TM1637Port.P8P3P4|block": "P8/P3/P4",
   "rb0screen4.rb0screen4_advancedcreate|block": "οθόνη 4x1 στο DIO %pin1 CLK %pin2",
   "rb0screen4.rb0screen4_simplecreate|block": "οθόνη 4x1 στη θύρα %port",
-  "rb0screen4.showHex|block": "οθόνη 4x1 εμφάνισε το δεκαεξαδικό αριθμό %num",
+  "rb0screen4.showHex|block": "οθόνη 4x1 εμφάνισε τον δεκαεξαδικό αριθμό %num",
   "rb0screen4.showNumber|block": "οθόνη 4x1 εμφάνισε τον αριθμό %num",
   "rb0screen4|block": "Οθόνη 4x1",
   "{id:category}Rb0screen4": "Rb0screen4"
