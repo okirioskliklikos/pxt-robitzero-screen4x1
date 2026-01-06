@@ -1,16 +1,19 @@
 {
     "name": "pxt-robitzero-screen4x1",
-    "version": "0.0.0",
+    "version": "0.1.0",
     "description": "",
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "microphone": "*"
+        "microphone": "*",
+        "pxt-robitzero-base": "github:okirioskliklikos/pxt-robitzero-base#v0.1.0"
     },
     "files": [
         "README.md",
         "main.blocks",
-        "main.ts"
+        "main.ts",
+        "custom.ts",
+        "library.ts"
     ],
     "testFiles": [
         "test.ts"
@@ -23,5 +26,5 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
