@@ -304,11 +304,11 @@ namespace rb0screen4 {
     * Initialize 4Digit Screen based on TM1637 
     * @param port Keyestudio port that TM1367 screen is connected
     */
-    //% blockId="rb0screen4_simplecreate"
+    //% blockId="rb0screen4_initSimple"
     //% block="screen 4x1 at port %port" 
     //% weight=90 color=100 blockGap=24
     //% port.defl=TM1637Port.P8P3P4
-    export function rb0screen4_simplecreate(port: TM1637Port) {
+    export function initSimple(port: TM1637Port) {
         let ksPort = port as number as KeyestudioPort;
 
         let pin1 = rb0base.getPinFromKeyestudioPort(ksPort);
@@ -330,11 +330,11 @@ namespace rb0screen4 {
     * @param pin1 pin port that DIO of TM1367 screen is connected
     * @param pin2 pin port that CLK of TM1367 screen is connected
     */
-    //% blockId="rb0screen4_advancedcreate"
+    //% blockId="rb0screen4_initAdvanced"
     //% block="screen 4x1 at DIO %pin1 CLK %pin2" 
     //% weight=90 color=100 blockGap=24 advanced=true
     //% pin1.defl=DigitalPin.P8 pin2.defl=DigitalPin.P3
-    export function rb0screen4_advancedcreate(pin1: DigitalPin, pin2: DigitalPin) {
+    export function initAdvanced(pin1: DigitalPin, pin2: DigitalPin) {
         rb0base.enablePin(pin1);
         rb0base.enablePin(pin2);
 
@@ -350,7 +350,7 @@ namespace rb0screen4 {
     * show a number. 
     * @param num is a number, eg: 0
     */
-    //% blockId="rb0screen4_shownum"
+    //% blockId="rb0screen4_showNumber"
     //% block="screen 4x1 show number %num"
     //% weight=80 blockGap=8
     export function showNumber(num: number) {
@@ -361,7 +361,7 @@ namespace rb0screen4 {
     * show a hex number. 
     * @param num is a hex number, eg: 0
      */
-    //% blockId="rb0screen4_showhex"
+    //% blockId="rb0screen4_showHex"
     //% block="screen 4x1 show hex number %num"
     //% weight=80 blockGap=8 advanced=true
     export function showHex(num: number) {
